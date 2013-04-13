@@ -1,7 +1,7 @@
 use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME           	=> 'qa-hackathon',
-    VERSION		   	=> '1.01',
+    VERSION		   	=> '1.02',
     PREREQ_PM      	=> {
     },
     ($] >= 5.005 ?
