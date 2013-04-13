@@ -1,0 +1,46 @@
+qa-hackathon-website
+====================
+
+DESCRIPTION
+
+The QA Hackathon website available at http://qa-hackathon.org
+
+This distribution all the HTML, CSS and images that are used within the QA
+Hackathon website. Some content, particularly images, are the copyright of the
+respective authors, who have all allowed me to use these for the QA Hackathon
+website. If you wish to use them for other purposes, please contact myself and
+I will pass on your request to the respective copyright holders.
+
+INSTALLATION
+
+To install this distribution, simply unpack the distribution and copy the
+./html directory into your web hosting directory structure. Using your 
+favourite web server, edit the config files to use the ./html directory as the
+document root.
+
+CHANGES
+
+For a complete list of changes, see the Changes file.
+
+SUPPORT
+
+If you find any typos or bugs, or wish to help extend or translate the website,
+please clone a copy of the git repository and submit a pull request for me to
+review. 
+
+Fixes are dependent upon their severity and my availability. Should a fix not
+be forthcoming, please feel free to (politely) remind me.
+
+AUTHOR
+
+Barbie <barbie@cpan.org>
+for Miss Barbell Productions http://www.missbarbell.co.uk,
+for the benefit of The Perl Foundation.
+
+COPYRIGHT AND LICENSE
+
+  Copyright (C) 2007-2013 Barbie for Miss Barbell Productions 
+  and The Perl Foundation
+
+  This distribution is free software; you can redistribute it and/or
+  modify it under the Artistic Licence v2.

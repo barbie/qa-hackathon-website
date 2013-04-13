@@ -1,10 +1,22 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use 5.006;
+
 use ExtUtils::MakeMaker;
+
 WriteMakefile(
-    NAME           	=> 'qa-hackathon',
-    VERSION		   	=> '1.02',
-    PREREQ_PM      	=> {
-    },
-    ($] >= 5.005 ?
-        (ABSTRACT 	=> 'The QA Hackathon Website',
-         AUTHOR     => 'Barbie <barbie@cpan.org>') : ()),
+    AUTHOR              => 'Barbie <barbie@cpan.org>',
+    NAME                => 'qa-hackathon-website',
+    VERSION		   	    => '1.03',
+    ABSTRACT            => 'The QA Hackathon Website',
+    NO_META             => 1,
+    PREREQ_PM           => {
+
+        # build/test prereqs
+        'IO::File'              => '0',
+        'Test::More'            => '0.70'
+
+    }
 );
