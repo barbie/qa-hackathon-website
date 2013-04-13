@@ -36,7 +36,6 @@
                 "Test::More": "0.70"
             },
             "recommends": {
-                "Test::CPAN::Meta": "0",
                 "Test::CPAN::Meta::JSON": "0"
             }
         }
