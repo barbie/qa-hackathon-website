@@ -2,7 +2,7 @@
 config,xhtml=1,
 config,dump=0,
 config,wai=1,
-config,critic=1,
+config,critic=0,
 
 #,# Rules for all pages,
 all body,The QA Hackathons,.. main title found
