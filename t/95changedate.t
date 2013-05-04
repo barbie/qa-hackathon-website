@@ -12,7 +12,7 @@ my $fh = IO::File->new('Changes','r')   or plan skip_all => "Cannot open Changes
 
 plan 'no_plan';
 
-my $version = '1.04';
+my $version = '1.05';
 
 my $latest = 0;
 while(<$fh>) {
