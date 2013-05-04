@@ -369,7 +369,7 @@ p.quote {
 
 /* Unordered list */
 .content ul {
-	margin: 0px 10px 0px 0px; padding: 0px 0px 0px 30px; list-style-type: disc; list-style-position: outside; font-size: 130%;
+	margin: 0px 10px 10px 0px; padding: 0px 0px 0px 30px; list-style-type: disc; list-style-position: outside; font-size: 130%;
 }
 
 /* Ordered List */
