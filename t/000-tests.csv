@@ -6,9 +6,9 @@ config,critic=1,
 
 #,# Rules for all pages,
 all body,The QA Hackathons,.. main title found
-all body,<a href="index.html">Home</a>,.. Home link found
-all body,<a href="about.html">About Us</a>,.. About link found
-all body,<a href="contact.html">Contact</a>,.. Contact link found
+all body,<a href="/index.html"\s+title="Home"\s*>Home</a>,.. Home link found
+all body,<a href="/about.html"\s+title="About Us"\s*>About Us</a>,.. About link found
+all body,<a href="/contact.html"\s+title="Contact Us"\s*>Contact</a>,.. Contact link found
 
 #,# Rules for all page which must not match
 all body not,(&#8216;|&#8217;|&lsquo;|&rsquo;|<91>|<92>),no bad single quote
@@ -17,9 +17,10 @@ all body not,(&#8230;|&hellip;|<85>),no bad dots
 all body not,(&#8211;|&ndash;|<96>),no bad dash
 
 all body not,I'm sorry an error appears,no errors
-all body not,Hackthon,common typo
+#,all body not, Hackthon ,common typo
 
 url,http://qahack,
 url,http://qahack/about.html,
 url,http://qahack/contact.html,
 url,http://qahack/index.html,
+url,http://qahack/reviews.html,
