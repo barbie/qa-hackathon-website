@@ -16,4 +16,8 @@ Makefile.PL
 MANIFEST
 META.json
 README
+t/000-tests.csv
+t/000-tests.t
+t/95changedate.t
+t/96metatest.t
 TODO

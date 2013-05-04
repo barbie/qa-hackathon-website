@@ -1,0 +1,25 @@
+#,# Configuration,
+config,xhtml=1,
+config,dump=0,
+config,wai=1,
+config,critic=1,
+
+#,# Rules for all pages,
+all body,The QA Hackathons,.. main title found
+all body,<a href="index.html">Home</a>,.. Home link found
+all body,<a href="about.html">About Us</a>,.. About link found
+all body,<a href="contact.html">Contact</a>,.. Contact link found
+
+#,# Rules for all page which must not match
+all body not,(&#8216;|&#8217;|&lsquo;|&rsquo;|<91>|<92>),no bad single quote
+all body not,(&#8220;|&#8221;|&ldquo;|&rdquo;|<93>|<94>),no bad double quote
+all body not,(&#8230;|&hellip;|<85>),no bad dots
+all body not,(&#8211;|&ndash;|<96>),no bad dash
+
+all body not,I'm sorry an error appears,no errors
+all body not,Hackthon,common typo
+
+url,http://qahack,
+url,http://qahack/about.html,
+url,http://qahack/contact.html,
+url,http://qahack/index.html,
