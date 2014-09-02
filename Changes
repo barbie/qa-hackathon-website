@@ -8,6 +8,7 @@ Changes log for qa-hackathon-website
         - added 2014 group shot by Wendy.
         - added photo credits to README.
         - fixed license fields in META.json to be lists.
+        - provided location and organisation details for each event.
 
 1.05    2013-05-04
         - added favicon.
