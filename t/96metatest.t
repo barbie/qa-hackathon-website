@@ -14,7 +14,7 @@ plan 'no_plan';
 
 my $meta = meta_spec_ok(undef,undef,@_);
 
-my $version = '1.07';
+my $version = '1.08';
 
 is($meta->{version},$version,
     'META.json distribution version matches');
