@@ -32,7 +32,7 @@
 /*-------------------------------*/
 
 body {
-	font-size: 62.5%; margin: 0em auto; padding: 0em; font-family: "trebuchet ms", verdana, arial, sans-serif;
+	font-size: 8pt; margin: 0em auto; padding: 0em; font-family: "trebuchet ms", verdana, arial, sans-serif;
 }
 
 #border-container1 { 
@@ -72,7 +72,7 @@ body {
 }
 
 .nav-global li a {
-	display: block; margin: 0px; padding: 2px 5px 2px 5px; border-left: solid 1px rgb(150,150,150); background-color: rgb(255,255,255); color: rgb(150,150,150); text-decoration: none; font-size: 100%;
+	display: block; margin: 0px; padding: 2px 5px 2px 5px; border-left: solid 1px rgb(150,150,150); background-color: rgb(255,255,255); color: rgb(150,150,150); text-decoration: none;
 }
 
 .nav-global a:hover {
@@ -88,11 +88,11 @@ body {
 /*-----------------------------------*/
 
 .site-name  {
-	clear: both; float: left; position: absolute; z-index: 1; width: 700px; top: 90px; margin: 0px; padding-left: 14px; background-color: transparent; color: rgb(225,225,225); font-weight: bold; font-size: 24px;
+	clear: both; float: left; position: absolute; z-index: 1; width: 700px; top: 90px; margin: 0px; padding-left: 14px; background-color: transparent; color: rgb(225,225,225); font-weight: bold; font-size: 18pt;
 }
 
 .site-slogan  {
-	float: left; position: absolute; z-index: 2; width: 11.7em; top: 1.9em; left: 16px; margin: 0px; padding: 0px 3px 1px 3px; background-color: rgb(150,150,150);	color: rgb(225,225,225); font-weight: bold; font-size: 14px;
+	float: left; position: absolute; z-index: 2; width: 11.7em; top: 1.9em; left: 16px; margin: 0px; padding: 0px 3px 1px 3px; background-color: rgb(150,150,150);	color: rgb(225,225,225); font-weight: bold; font-size: 11pt;
 }
 
 .img-header {
@@ -116,7 +116,7 @@ body {
 }
 
 .nav-main li a {
-	color: rgb(255,255,255); margin: 0px; padding: 0px 10px 0px 10px; border-right: solid 1px rgb(255,255,255); text-decoration: none; font-size: 130%;		
+	color: rgb(255,255,255); margin: 0px; padding: 0px 10px 0px 10px; border-right: solid 1px rgb(255,255,255); text-decoration: none; font-size: 10pt;		
 }
 
 .nav-main a:hover, .nav-main a.selected {
@@ -273,7 +273,7 @@ body {
 }
 
 .content-pagetitle p {
-	padding: 0px; margin: 0px; font-weight: bold; font-size: 140%;
+	padding: 0px; margin: 0px; font-weight: bold; font-size: 12pt;
 }
 
 /*----------------------------------*/
@@ -302,15 +302,15 @@ body {
 /*-----------------------------*/
 
 .contentbox-title-noshading-noline {
-	display: block; margin: 0px; padding: 0px; background-color: transparent; text-transform: none; font-weight: bold; font-size: 150%;
+	display: block; margin: 0px; padding: 0px; background-color: transparent; text-transform: none; font-weight: bold; font-size: 12pt;
 }
 
 .contentbox-title-noshading-line {
-	display: block; margin: 0px 0px 0.2em 0px; padding: 0px; border-bottom: solid 2px rgb(135,135,135); background-color: transparent; text-transform: none; font-weight: bold; font-size: 150%;
+	display: block; margin: 0px 0px 0.2em 0px; padding: 0px; border-bottom: solid 2px rgb(135,135,135); background-color: transparent; text-transform: none; font-weight: bold; font-size: 12pt;
 }
 
 .contentbox-title-shading {
-  	margin: 0px; padding: 1px 0px 2px 3px; background-color: rgb(225,225,225); font-weight: bold; font-size: 150%;	
+  	margin: 0px; padding: 1px 0px 2px 3px; background-color: rgb(225,225,225); font-weight: bold; font-size: 12pt;	
 }
 
 /*--------------------------------*/
@@ -333,48 +333,52 @@ body {
 
 /* Heading */
 h1 {
-	clear: left; margin: 1.0em 0px 1.0em 0px; font-weight: bold; font-size: 150%;
+	clear: left; margin: 1.0em 0px 1.0em 0px; font-weight: bold; font-size: 14pt;
 }
 
 h2 {
-	clear: left; margin: 1.5em 0px 1.0em 0px; font-weight: bold; font-size: 140%;
+	clear: left; margin: 1.5em 0px 1.0em 0px; font-weight: bold; font-size: 12pt;
 }
 
 h3 {
-	clear: left; margin: 1.0em 0px 0.6em 0px;	font-weight: bold; font-size: 130%;
+	clear: left; margin: 1.0em 0px 0.6em 0px;	font-weight: bold; font-size: 11pt;
 }
 
 h4 {
-	clear: left; margin: 0.5em 0px 0.5em 0px;	font-weight: bold; font-style: italic; font-size: 130%;
+	clear: left; margin: 0.5em 0px 0.5em 0px;	font-weight: bold; font-style: italic; font-size: 11pt;
 }
 
 /* Paragraph text */
 p {
-   clear: left; margin: 0em 0px 0.5em 0px; padding: 0px; font-size: 130%;
+   clear: left; margin: 0em 0px 0.5em 0px; padding: 0px; font-size: 10pt;
 }
 
 /* Quote */
 p.quote {
-   clear: left; margin: 0em 30px 0.6em 30px;	line-height: 120%; font-size: 120%;
+   clear: left; margin: 0em 30px 0.6em 30px;	line-height: 120%; font-size: 10pt;
+}
+
+blockquote {
+  font-style: italic;
 }
 
 /* Embedded */
 .embed {
-   float: left; width: 120px; margin: 2px 7px 2px 0px; padding: 5px 5px 5px 5px; background-color: rgb(225,225,225); font-style: italic; font-weight: bold;  line-height: 1.2em; font-size: 180%;
+   float: left; width: 120px; margin: 2px 7px 2px 0px; padding: 5px 5px 5px 5px; background-color: rgb(225,225,225); font-style: italic; font-weight: bold;  line-height: 1.2em; font-size: 16pt;
 }
 
 .embed-caption {
-   float: left; margin: 5px 0px 0px 0px; padding: 0px; font-style: italic; font-weight: normal; line-height: 1.2em; font-size: 50%;
+   float: left; margin: 5px 0px 0px 0px; padding: 0px; font-style: italic; font-weight: normal; line-height: 1.2em; font-size: 8pt;
 }
 
 /* Unordered list */
 .content ul {
-	margin: 0px 10px 10px 0px; padding: 0px 0px 0px 30px; list-style-type: disc; list-style-position: outside; font-size: 130%;
+	margin: 0px 10px 10px 0px; padding: 0px 0px 0px 30px; list-style-type: disc; list-style-position: outside; font-size: 10pt;
 }
 
 /* Ordered List */
 .content ol {
-	margin: 0px 10px 0px 17px; padding: 0px 0px 0px 30px; list-style-type: decimal; list-style-position: outside; font-size: 130%;
+	margin: 0px 10px 0px 17px; padding: 0px 0px 0px 30px; list-style-type: decimal; list-style-position: outside; font-size: 10pt;
 }
 
 /*--------------------------*/
@@ -501,25 +505,12 @@ p.tabledata-caption {
 /* SECTION 9 - HYPERLINKS FOR NON-NAVIGATION TEXTS */
 /***************************************************/
 
-.content a, .sidebar a {
-	color: rgb(0,0,0); text-decoration: underline;
-}
+.content a, .sidebar a                  { color: rgb(0,0,0); text-decoration: underline; }
+.content a:hover, .sidebar a:hover      { color: rgb(110,110,110); text-decoration: none; }
+.content a:visited, .sidebar a:visited  { color: rgb(110,110,110); }
 
-.content a:hover, .sidebar a:hover {
-	color: rgb(110,110,110); text-decoration: none;
-}
-
-.content a:visited, .sidebar a:visited {
-	color: rgb(110,110,110);
-}
-
-.footer a {
-	color: rgb(150,150,150); text-decoration: underline;
-}
-
-.footer a:hover {
-	color: rgb(0,0,0); text-decoration: none;
-}
+.footer a       { color: rgb(150,150,150); text-decoration: underline; }
+.footer a:hover { color: rgb(0,0,0); text-decoration: none; }
 
 /********************************/
 /* SECTION 10 - GENERIC CLASSES */
@@ -532,25 +523,12 @@ p.tabledata-caption {
 /* for the basic page regions.              */
 /*------------------------------------------*/
 
-.nav-global-font {
-	font-size: 1.0em;
-}
+.nav-global-font  {}
+.nav-main-font    {}
+.nav-sub-font     {}
 
-.nav-main-font {
-	font-size: 1.0em;
-}
-
-.nav-sub-font {
-	font-size: 1.0em;
-}
-
-.content-font {
-	font-size: 1.0em; line-height: 1.7em; color: rgb(110,110,110);
-}
-
-.sidebar-font {
-	font-size: 1.0em; line-height: 1.4em; color: rgb(110,110,110);
-}
+.content-font {	line-height: 1.3em; color: rgb(110,110,110); font-size: 10pt; }
+.sidebar-font {	line-height: 1.4em; color: rgb(110,110,110); }
 
 /* Percentage value does not work in "footer", so we     */
 /* cannot give the normed size of "1.0em" here and scale */
@@ -564,21 +542,10 @@ p.tabledata-caption {
 /* Section 10.2 - Horizontal alignments */
 /*--------------------------------------*/
 
-.align-left {
-	text-align: left;
-}
-
-.align-right {
-	text-align: right;
-}
-
-.float-left {
-	float: left;
-}
-
-.float-right {
-	float: right;
-}
+.align-left   { text-align: left; }
+.align-right  { text-align: right; }
+.float-left   { float: left; }
+.float-right  { float: right; }
 
 /*-------------------------------------*/
 /* Section 10.3 - Title decoration box */

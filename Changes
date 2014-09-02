@@ -1,4 +1,8 @@
-# Changes log for qa-hackathon-website
+Changes log for qa-hackathon-website
+====================================
+
+        - proof reading patch (thanks BooK).
+        - changed font sizes to point values rather than percentages.
 
 1.05    2013-05-04
         - added favicon.
