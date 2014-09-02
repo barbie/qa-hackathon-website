@@ -1,6 +1,8 @@
 Changes log for qa-hackathon-website
 ====================================
 
+        - fixed order of colour points.
+
 1.06    2014-09-02
         - proof reading patch (thanks BooK).
         - changed font sizes to point values rather than percentages.
