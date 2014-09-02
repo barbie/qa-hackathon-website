@@ -1,6 +1,7 @@
 Changes log for qa-hackathon-website
 ====================================
 
+1.06    2014-09-02
         - proof reading patch (thanks BooK).
         - changed font sizes to point values rather than percentages.
         - updated front page with links to 2015 QA Hackathon.
