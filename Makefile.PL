@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     AUTHOR              => 'Barbie <barbie@cpan.org>',
     NAME                => 'qa-hackathon-website',
-    VERSION		   	    => '1.06',
+    VERSION             => '1.07',
     ABSTRACT            => 'The QA Hackathon Website',
     NO_META             => 1,
     PREREQ_PM           => {

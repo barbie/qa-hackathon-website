@@ -1,6 +1,6 @@
 {
     "name": "qa-hackathon-website",
-    "version": "1.06",
+    "version": "1.07",
     "abstract" : "The QA Hackathon Website",
     "author": ["Barbie <barbie@cpan.org>"],
 
