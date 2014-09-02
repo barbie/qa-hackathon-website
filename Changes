@@ -1,7 +1,8 @@
 Changes log for qa-hackathon-website
 ====================================
 
-        - XHTML tag fixes,
+        - XHTML tag fixes.
+        - fix link titles.
 
 1.07    2014-09-02
         - fixed order of colour points.
