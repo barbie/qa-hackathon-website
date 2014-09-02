@@ -5,11 +5,11 @@ DESCRIPTION
 
 The QA Hackathon website available at http://qa-hackathon.org
 
-This distribution all the HTML, CSS and images that are used within the QA
-Hackathon website. Some content, particularly images, are the copyright of the
-respective authors, who have all allowed me to use these for the QA Hackathon
-website. If you wish to use them for other purposes, please contact myself and
-I will pass on your request to the respective copyright holders.
+This distribution contains all the HTML, CSS and images that are used within
+the QA Hackathon website. Some content, particularly images, are the copyright 
+of the respective authors, who have all allowed me to use these for the QA 
+Hackathon website. If you wish to use them for other purposes, please contact 
+myself and I will pass on your request to the respective copyright holders.
 
 INSTALLATION
 
@@ -25,11 +25,13 @@ For a complete list of changes, see the Changes file.
 SUPPORT
 
 If you find any typos or bugs, or wish to help extend or translate the website,
-please clone a copy of the git repository and submit a pull request for me to
-review. 
+please clone a copy of the git repository [1] and submit a pull request for me
+to review. 
 
 Fixes are dependent upon their severity and my availability. Should a fix not
 be forthcoming, please feel free to (politely) remind me.
+
+[1] http://github.com/barbie/qa-hackathon-website
 
 PHOTO CREDITS
 
